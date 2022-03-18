@@ -1,0 +1,27 @@
+x_cols:
+  - 'Age'
+  - 'Building Area in Sqfeet'
+  - 'Miles to Freeway'
+  - 'Lot Size in Sqfeet'
+  - 'Ceiling Height in feet'
+  - 'Exterior Wall'
+  - 'Facilities_Score'
+  - 'Location'
+  - 'Age_squared'
+  - 'Building_Area_Squared'
+  - 'Miles_Squared'
+  - 'Lot_Squared'
+  - 'Ceiling_Squared'
+  - 'Exterior_Squared'
+  - 'Facilities_Squared'
+  - 'BuildingSize*Location'
+  - 'LotSize*Location'
+  - 'Exterior*Location'
+  - 'Facilities_Location'
+
+y_cols:
+  - 'Sale Price'
+    
+ingored:
+  - 'Name_of_Property'
+  - 'PricePerSquareFeet'
